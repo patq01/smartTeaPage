@@ -60,10 +60,7 @@ body{
 .landingPage{
 	height: auto;
 	width: 100%;
-	max-width: 1440px;
 	overflow-x: hidden;
-	margin-left: auto;
-	margin-right: auto;
 } 
 /*Menu, strona początkowa*/
 header{
