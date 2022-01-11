@@ -574,10 +574,10 @@ function handleTouchMove(evt) {
                                                                          
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
         if ( xDiff > 0 ) {
-            reviewNumber++;
+            if(reviewNumber<8)reviewNumber++;
             changeReviewSlide();
         } else {
-            reviewNumber--;
+            if(reviewNumber>1)reviewNumber--;
             changeReviewSlide();
         }                       
     } 
